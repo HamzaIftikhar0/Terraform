@@ -69,6 +69,7 @@ resource aws_security_group my_sg {
     }
     tags = {
         Name = "my-instance"
+        environment = var.env
     }
  }
 
